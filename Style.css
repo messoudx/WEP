@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #222423
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #222423;
+  box-shadow: 0 0 50px 0 #00ff55;
+}
+.logo {
+  width: 120px;
+  padding: 5px 5px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  box-shadow: 0 0 50px 0 #0000;
+}
+.logo:hover {
+  background-color: #00ff55;
+  transition: 0.5s ease;
+}
+.link a {
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 25px;
+}
+.link a:hover {
+  background-color: #424646;
+  transition: 0.5s ease;
+}
+.btn:hover {
+  background-color: #ffffff;
+  transition: 0.5s ease-in-out;
+}
+.search button:hover {
+  background-color: rgb(3, 255, 171);
+}
+.search button {
+  position: absolute;
+  top: 300px;
+  left: 215px;
+  padding: 10px 20px;
+}
+.landing {
+  color: #ffffff;
+  background-color: #222423;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  align-items: center;
+  border-radius: 0 0 px px;
+}
+.search input {
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  padding: 10px 40px 10px 20px;
+  position: absolute;
+  top: 300px;
+}
+.wst {
+  position: absolute;
+  top: 65px;
+  width: 500px;
+}
+.btn {
+  background-color: #00ff55;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 25px;
+}
+.imags-mincrft img {
+  border-radius: 25px;
+  background-color: #00ff80;
+  box-shadow: 0 0 50px 0 #000000;
+  width: 200px;
+  position: absolute;
+  left:1140px;
+}
+.imags-mincrft img:hover {
+  border-radius: 25px;
+  padding: 0px 20px px px;
+  position: absolute;
+  left:1130px;
+  transition: 0.5s ease-in-out;
+}
