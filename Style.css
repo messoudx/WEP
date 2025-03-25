@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
-  background-color: #222423
+  background-color: #222423;
 }
 .header {
   display: flex;
@@ -27,26 +27,32 @@ body {
   padding: 5px 15px;
   text-decoration: none;
   border-radius: 25px;
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  position: relative;
+  right: 10px;
 }
 .link a:hover {
   background-color: #424646;
   transition: 0.5s ease;
+  color: #00ff55;
 }
 .btn:hover {
   background-color: #ffffff;
 }
 .search button:hover {
   background-color: rgb(3, 255, 171);
-  color: #000000;
-  transition:  0.25s ease-in-out;
+  color: #ffffff;
+  transition: 0.25s ease-in-out;
 }
 .search button {
-  color: #ffffff;
   position: absolute;
   top: 300px;
   left: 215px;
   padding: 10px 20px;
-  transition:  0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 .landing {
   color: #ffffff;
@@ -81,10 +87,14 @@ body {
   background-color: #00ff80;
   box-shadow: 0 0 50px 0 #000000;
   width: 200px;
-  transition:  0.25s ease-in-out;
+  position: absolute;
+  left: 1140px;
+  transition: 0.25s ease-in-out;
 }
 .imags-mincrft img:hover {
   border-radius: 25px;
   padding: 0px 20px px px;
-  transition:  0.25s ease-in-out;
+  position: absolute;
+  left: 1130px;
+  transition: 0.25s ease-in-out;
 }
