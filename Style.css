@@ -81,14 +81,10 @@ body {
   background-color: #00ff80;
   box-shadow: 0 0 50px 0 #000000;
   width: 200px;
-  position: absolute;
-  left: 1140px;
   transition:  0.25s ease-in-out;
 }
 .imags-mincrft img:hover {
   border-radius: 25px;
   padding: 0px 20px px px;
-  position: absolute;
-  left: 1130px;
   transition:  0.25s ease-in-out;
 }
