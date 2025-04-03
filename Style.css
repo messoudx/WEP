@@ -27,10 +27,6 @@ body {
   padding: 5px 15px;
   text-decoration: none;
   border-radius: 25px;
-  font-family: "Winky Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
   position: relative;
   right: 10px;
 }
